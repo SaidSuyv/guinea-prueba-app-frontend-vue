@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+
+@theme {
+  --breakpoint-xs: 30rem; /* 480px */
+}
+
+@theme static {
+  --color-primary: #40C8E9;
+  --color-secondary: #3E44F3;
+  --color-background: #F5F9FC;
+  --text-color: #1F1C23;
+  --border-color: #B2B7C2;
+}
+
+.bg {
+  background-color: var(--color-background);
+  height: 100dvh;
+}
+
+p {
+  color: var(--text-color);
+}
