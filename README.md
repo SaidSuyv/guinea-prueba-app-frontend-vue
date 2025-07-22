@@ -100,6 +100,9 @@ npm run build
 ### Iniciar pruebas
 
 ```bash
+npx vitest run
+--
+npx vitest --watch
 ```
 
 ## Dependencias
